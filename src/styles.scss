@@ -4,17 +4,16 @@
 
 @font-face {
   font-family: "shadows";
-  src: local("shadows"),
-    url(./assets/fonts/ShadowsIntoLight-Regular.ttf) format("truetype");
+  src: local("shadows"), url(./assets/fonts/ShadowsIntoLight-Regular.ttf) format("truetype");
 }
+
 
 body {
   margin: 2em;
   background-color: rgb(247, 220, 244);
 }
-body,
-input[type="text"],
-button {
+
+body, input[type="text"], button {
   color: #333;
 }
 
