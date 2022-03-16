@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "shadows";
+  src: local("shadows"),
+    url(./assets/fonts/ShadowsIntoLight-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 2em;
+  background-color: rgb(247, 220, 244);
+}
+body,
+input[type="text"],
+button {
+  color: #333;
+}
+
+/* everywhere else */
+* {
+  font-family: "shadows", Arial, Helvetica, sans-serif;
+}
